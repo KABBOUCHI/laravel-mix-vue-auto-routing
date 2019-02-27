@@ -1,0 +1,30 @@
+{
+  "name": "laravel-mix-vue-auto-routing",
+  "version": "0.1.0",
+  "description": "A quick Laravel Mix extension to generate Vue Router routing automatically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabbouchi/laravel-mix-vue-auto-routing.git"
+  },
+  "keywords": [
+    "laravel",
+    "laravel mix",
+    "vue",
+    "routing",
+    "vue router",
+    "vue auto routing",
+  ],
+  "author": "Georges KABBOUCHI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kabbouchi/laravel-mix-vue-auto-routing/issues"
+  },
+  "homepage": "https://github.com/kabbouchi/laravel-mix-vue-auto-routing#readme",
+  "devDependencies": {
+    "vue-auto-routing": "^0.3.0"
+  }
+}

@@ -8,6 +8,7 @@ First, install the extension.
 
 ```
 npm install laravel-mix-vue-auto-routing --save-dev
+npm install vue-router --save
 ```
 
 Then, require it within your `webpack.mix.js` file, like so:

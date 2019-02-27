@@ -28,6 +28,6 @@ mix.extend('vueAutoRouting', new class {
 
     webpackConfig(webpackConfig) {
         if (!webpackConfig.resolve.alias['@'])
-            webpackConfig.resolve.alias['@'] = path.resolve(__dirname, './resources/js');
+            webpackConfig.resolve.alias['@'] = path.resolve(__dirname, './../../resources/js');
     }
 });

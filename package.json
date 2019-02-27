@@ -1,6 +1,6 @@
 {
   "name": "laravel-mix-vue-auto-routing",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A quick Laravel Mix extension to generate Vue Router routing automatically.",
   "main": "index.js",
   "scripts": {

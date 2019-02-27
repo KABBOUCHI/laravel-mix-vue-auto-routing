@@ -1,8 +1,6 @@
 const mix = require('laravel-mix');
 const path = require('path');
 
-const VueAutoRoutingPlugin = require('vue-auto-routing/lib/webpack-plugin');
-
 mix.extend('vueAutoRouting', new class {
 
     register(opts = {}) {
@@ -20,11 +18,11 @@ mix.extend('vueAutoRouting', new class {
     }
 
     dependencies() {
-        return ['vue-router-routing'];
+        return ['vue-auto-routing'];
     }
 
     webpackPlugins() {
-        console.log(this.config)
+        const VueAutoRoutingPlugin = require('vue-auto-routing/lib/webpack-plugin');
         return new VueAutoRoutingPlugin(this.config);
     }
 
